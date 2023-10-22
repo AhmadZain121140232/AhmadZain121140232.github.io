@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.header {
+    flex: 2;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(105, 106, 109, 0.7),rgba(105, 106, 109, 0.7)), url(images/gambar.jpg);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    padding: 10px; 
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+
+.footer .footer-center {
+    width: 35%;
+}
+
+.footer .footer-center i{
+    background-color: #33383b;
+    color: white;
+}
+.side h1{
+    margin-left: 20px;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo {
+    margin: 20px;
+}
+.navbar {
+    width: 150px;
+    background: #222222;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    height: 100vh;
+    padding: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #393939;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: block;
+    margin: 20px 0;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: beige;
+    text-transform: uppercase;
+}
+
+.main-content {
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    transform: translateY(-10);
+    text-align: justify;
+    
+}
+
+.main-content .home {
+    color: rgb(243, 243, 239);
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.main-content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    border-collapse: collapse;
+    border-spacing: 10;
+    border-radius: 12px 12px 12px 12px;
+}
+
+tr:nth-child(odd) {
+    background-color: #cacaca; 
+}
+  
+tr:nth-child(even) {
+    background-color: #969696; 
+}
+
