@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="images/ITERA.png" class="logo" style="width: 100px">
+        <div class="side">
+            <h1>Website UTS</h1>
+        </div>
+        
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#table">Table</a></li>
+                <li><a href="#form">Form</a></li>
+            </ul>
+        </div>
+        
+
+        <div class="main-content">
+            <section class="home" id="home">
+                <div class="container">
+                    <br>
+                    <br>
+                    <br>
+                    <h1>About Us</h1>
+                    <p><br>Sebuah web html yang terdiri dari 3 halaman yaitu Home, Table, dan Form dengan shortcut navigasi pada bilah kanan layar. </p>
+                </div>
+
+            </section>
+
+            <section class="table" id="table">
+                <div class="container">
+                    <h2 id="daftar-mahasiswa">Daftar Mahasiswa</h2>
+                    <table border="1">
+                        <tr>
+                            <th rowspan="1">No</th>
+                            <th rowspan="1">Nama</th>
+                            <th rowspan="1">NIM</th>
+                            <th rowspan="1">Program Studi</th>
+                            <th rowspan="1">Email</th>
+                            <th rowspan="1">Password</th>
+                            <th rowspan="1">Jenis Kelamin</th>
+                            <th rowspan="1">Tanggal Lahir</th>
+                            <th rowspan="1">Alamat</th>
+                        </tr>
+                        
+                        <tr>
+                            <td>1</td>
+                            <td>Ahmad Zain Mahmud</td>
+                            <td>121140232</td>
+                            <td>Teknik Informatika</td>
+                            <td>ahmad.121140232@student.itera.ac.id</td>
+                            <td>********</td>
+                            <td>Pria</td>
+                            <td>2003-06-30</td>
+                            <td>Jl Vanili Raya</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>M Widyantoro Wiryawan</td>
+                            <td>121140183</td>
+                            <td>Teknik Informatika</td>
+                            <td>muhammad.121140183@student.itera.ac.id</td>
+                            <td>********</td>
+                            <td>Pria</td>
+                            <td>2002-11-10</td>
+                            <td>Jl Kartini</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Fatur Arkan Syawalva</td>
+                            <td>121140229</td>
+                            <td>Teknik Informatika</td>
+                            <td>fatur.121140229@student.itera.ac.id</td>
+                            <td>********</td>
+                            <td>Pria</td>
+                            <td>2003-08-20</td>
+                            <td>Jl Panglima Polim</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Mirza Taufiqurrahman</td>
+                            <td>121140230</td>
+                            <td>Teknik Informatika</td>
+                            <td>mirza.121140232@student.itera.ac.id</td>
+                            <td>********</td>
+                            <td>Pria</td>
+                            <td>2002-12-10</td>
+                            <td>Jl Dempo</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Mohammad Meazza</td>
+                            <td>121140226</td>
+                            <td>Teknik Informatika</td>
+                            <td>mohammad.121140226@student.itera.ac.id</td>
+                            <td>********</td>
+                            <td>Pria</td>
+                            <td>2002-11-17</td>
+                            <td>Jl Antasari</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </section>
+            
+            <section class="form" id="form">
+                <div class="container">
+                    <form action="#">
+                        <h2 id="Biodata">Biodata</h2>
+                        <p>
+                            <label for="nama">Nama :</label>
+                            <input type="text" placeholder="ex: Ahmad Zain Mahmud" id="nama" name="nama"><br>
+                            <label for="nim">NIM :</label>
+                            <input type="text" placeholder="ex: 121140232" id="nim" name="nim"><br>
+                            <label for="prodi">Prodi :</label>
+                            <input type="text" placeholder="ex: Teknik Informatika" id="prodi" name="prodi"><br>
+                            <label for="email">Email :</label>
+                            <input type="text" placeholder="ex: ahmad.121140232@student.itera.ac.id" id="email" name="email"><br>
+                            <label for="ttl">Tanggal lahir :</label>
+                            <input type="text" placeholder="ex: 2003-06-30" id="ttl" name="ttl"><br>
+                            <label for="alamat">Alamat :</label>
+                            <input type="text" placeholder="ex: Jl Vanili Raya" id="alamat" name="alamat"><br>
+                            <label for="password">Password :</label>
+                            <input type="password" placeholder="ex: 12345678" id="password" name="password">
+                        </p>
+                        <p>
+                            <label for="tanya">Jenis Kelamin</label> <br>
+                            <input type="radio" id="tanya" name="tanya">Pria <br>
+                            <input type="radio" id="tanya" name="tanya">Wanita <br>
+                        </p>
+                        <button class="btn" type="submit">Submit</button>
+                    </form>
+                </div>
+
+            </section>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Indonesia</span> Lampung, Bandar Lampung</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+62 852-6699-6589</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        flex: 100;
+        /* Atur tinggi konten di atas footer di sini */
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+    section{
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+</style>
+</html>
